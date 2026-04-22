@@ -70,7 +70,7 @@ DGCNN-MidFusion-Model/
 │   └── default.yaml             # Can be used instead of config.py
 │
 ├── data/                         # Data directory (add your .npy files here)
-│   └── fractal_data_v2_filtered.npy
+│   └── Multimodal_dataset.npy.npy
 │
 ├── outputs/                      # Generated during training
 │   ├── checkpoints/             # Model weights
@@ -95,7 +95,7 @@ DGCNN-MidFusion-Model/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/DGCNN-MidFusion-Model.git
+git clone https://github.com/dhiflidhia1/Multimodal-Lidar-3D-data-Fusion-using-DGCNN-.git
 cd DGCNN-MidFusion-Model
 ```
 
@@ -190,7 +190,7 @@ Edit `src/config.py` to customize:
 
 ### Paths
 ```python
-DATA_PATH = Path("data/fractal_data_v2_filtered.npy")
+DATA_PATH = Path("data/Multimodal_dataset.npy")
 OUTPUT_DIR = Path("outputs/checkpoints")
 ```
 
@@ -349,11 +349,6 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 For questions or suggestions:
 - Open an issue on GitHub
-- Contact: your.email@example.com
+- Contact: dhiflidhia17@gmail.com.com
 
----
 
-**Made with ❤️ for point cloud enthusiasts**
-"# Multimodal-Lidar-3D-data-Fusion-using-DGCNN-" 
-"# Multimodal-Lidar-3D-data-Fusion-using-DGCNN-" 
-"# Multimodal-Lidar-3D-data-Fusion-using-DGCNN-" 
