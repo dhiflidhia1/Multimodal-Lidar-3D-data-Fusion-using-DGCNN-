@@ -70,7 +70,7 @@ DGCNN-MidFusion-Model/
 │   └── default.yaml             # Can be used instead of config.py
 │
 ├── data/                         # Data directory (add your .npy files here)
-│   └── Multimodal_dataset.npy.npy
+│   └── Multimodal_dataset.npy
 │
 ├── outputs/                      # Generated during training
 │   ├── checkpoints/             # Model weights
@@ -126,7 +126,7 @@ Place your `Multimodal_dataset.npy` file in the `data/` directory:
 ```bash
 # Structure:
 data/
-└── fractal_data_v2_filtered.npy
+└── Multimodal_dataset.npy
 ```
 
 Expected data format:
