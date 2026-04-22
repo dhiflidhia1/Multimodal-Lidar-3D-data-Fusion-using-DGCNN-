@@ -121,7 +121,7 @@ pip install -r requirements.txt
 
 ### Step 4: Prepare Data
 
-Place your `fractal_data_v2_filtered.npy` file in the `data/` directory:
+Place your `Multimodal_dataset.npy` file in the `data/` directory:
 
 ```bash
 # Structure:
@@ -146,7 +146,7 @@ python scripts/train.py
 **Custom hyperparameters:**
 ```bash
 python scripts/train.py \
-    --epochs 150 \
+    --epochs 100 \
     --batch-size 64 \
     --lr 1e-3 \
     --k 20 \
@@ -330,7 +330,7 @@ PIN_MEMORY = False  # Disable if memory constrained
 - DGCNN Paper: [Dynamic Graph CNN for Learning on Point Clouds](https://arxiv.org/abs/1801.07829)
 - PyTorch Documentation: https://pytorch.org/docs/stable/index.html
 - Point Cloud Processing: https://pointclouds.org/
-
+-...............................................................................
 ## 🤝 Contributing
 
 Contributions welcome! Please:
